@@ -31,7 +31,7 @@ namespace ExitExamApp
         {
             try
             {
-            // instantiate new User
+            // instantiate new User object
             User theNewUser = new User();
 
             // specify user attributes

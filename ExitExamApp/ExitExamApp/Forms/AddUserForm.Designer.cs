@@ -3,7 +3,7 @@
 {
     partial class AddUserForm
     {
-        /// <summary>
+        /// <summary> comment
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
