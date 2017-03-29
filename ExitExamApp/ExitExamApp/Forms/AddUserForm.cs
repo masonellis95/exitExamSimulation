@@ -46,9 +46,9 @@ namespace ExitExamApp
             theNewUser.PassWord = passwordBox.Text;
 
             if (studentRadio.Checked)
-                theNewUser.UserType = 's';
+                theNewUser.UserType = 'S';
             else
-                theNewUser.UserType = 'a';
+                theNewUser.UserType = 'A';
 
             DatabaseManager thisOne = new DatabaseManager();
 
