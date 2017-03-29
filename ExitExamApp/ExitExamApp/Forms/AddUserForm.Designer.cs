@@ -40,8 +40,10 @@
             this.mNumberLabel = new System.Windows.Forms.Label();
             this.cancelButton = new System.Windows.Forms.Button();
             this.addButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.userTypeTextBox = new System.Windows.Forms.TextBox();
+            this.userTypeGroup = new System.Windows.Forms.GroupBox();
+            this.studentRadio = new System.Windows.Forms.RadioButton();
+            this.adminRadio = new System.Windows.Forms.RadioButton();
+            this.userTypeGroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // firstNameBox
@@ -144,21 +146,39 @@
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click_1);
             // 
-            // label1
+            // userTypeGroup
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(86, 258);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(178, 13);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "User Type: s for student; a for admin";
+            this.userTypeGroup.Controls.Add(this.adminRadio);
+            this.userTypeGroup.Controls.Add(this.studentRadio);
+            this.userTypeGroup.Location = new System.Drawing.Point(86, 252);
+            this.userTypeGroup.Name = "userTypeGroup";
+            this.userTypeGroup.Size = new System.Drawing.Size(203, 73);
+            this.userTypeGroup.TabIndex = 12;
+            this.userTypeGroup.TabStop = false;
+            this.userTypeGroup.Text = "User Type";
             // 
-            // userTypeTextBox
+            // studentRadio
             // 
-            this.userTypeTextBox.Location = new System.Drawing.Point(86, 274);
-            this.userTypeTextBox.Name = "userTypeTextBox";
-            this.userTypeTextBox.Size = new System.Drawing.Size(203, 20);
-            this.userTypeTextBox.TabIndex = 12;
+            this.studentRadio.AutoSize = true;
+            this.studentRadio.Checked = true;
+            this.studentRadio.Location = new System.Drawing.Point(6, 19);
+            this.studentRadio.Name = "studentRadio";
+            this.studentRadio.Size = new System.Drawing.Size(62, 17);
+            this.studentRadio.TabIndex = 0;
+            this.studentRadio.TabStop = true;
+            this.studentRadio.Text = "Student";
+            this.studentRadio.UseVisualStyleBackColor = true;
+            // 
+            // adminRadio
+            // 
+            this.adminRadio.AutoSize = true;
+            this.adminRadio.Location = new System.Drawing.Point(7, 43);
+            this.adminRadio.Name = "adminRadio";
+            this.adminRadio.Size = new System.Drawing.Size(54, 17);
+            this.adminRadio.TabIndex = 1;
+            this.adminRadio.TabStop = true;
+            this.adminRadio.Text = "Admin";
+            this.adminRadio.UseVisualStyleBackColor = true;
             // 
             // AddUserForm
             // 
@@ -166,8 +186,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(375, 397);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.userTypeTextBox);
+            this.Controls.Add(this.userTypeGroup);
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.mNumberLabel);
@@ -183,6 +202,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AddUserForm";
             this.Text = "Add User";
+            this.userTypeGroup.ResumeLayout(false);
+            this.userTypeGroup.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,8 +223,9 @@
         private System.Windows.Forms.Label mNumberLabel;
         private System.Windows.Forms.Button cancelButton;
         private System.Windows.Forms.Button addButton;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox userTypeTextBox;
+        private System.Windows.Forms.GroupBox userTypeGroup;
+        private System.Windows.Forms.RadioButton adminRadio;
+        private System.Windows.Forms.RadioButton studentRadio;
     }
 }
 

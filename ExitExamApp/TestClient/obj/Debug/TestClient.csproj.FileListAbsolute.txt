@@ -12,3 +12,6 @@ C:\exitExamSimulation\ExitExamApp\TestClient\obj\Debug\TestClient.pdb
 C:\Users\Joshua\Desktop\XPS\exitExamSimulation\ExitExamApp\TestClient\bin\Debug\TestClient.exe.config
 C:\Users\Joshua\Desktop\XPS\exitExamSimulation\ExitExamApp\TestClient\obj\Debug\TestClient.exe
 C:\Users\Joshua\Desktop\XPS\exitExamSimulation\ExitExamApp\TestClient\obj\Debug\TestClient.pdb
+C:\Users\Johnny Tran\Documents\GitHub\exitExamSimulation\ExitExamApp\TestClient\bin\Debug\TestClient.exe.config
+C:\Users\Johnny Tran\Documents\GitHub\exitExamSimulation\ExitExamApp\TestClient\obj\Debug\TestClient.exe
+C:\Users\Johnny Tran\Documents\GitHub\exitExamSimulation\ExitExamApp\TestClient\obj\Debug\TestClient.pdb
