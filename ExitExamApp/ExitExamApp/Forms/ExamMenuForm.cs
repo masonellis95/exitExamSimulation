@@ -29,5 +29,12 @@ namespace ExitExamApp
             this.Close();
             Environment.Exit(exitCode);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddUserForm xmform = new AddUserForm();
+            xmform.Show();
+            this.Close();
+        }
     }
 }
