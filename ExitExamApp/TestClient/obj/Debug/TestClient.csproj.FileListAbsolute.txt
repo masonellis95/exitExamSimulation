@@ -15,3 +15,10 @@ C:\Users\Joshua\Desktop\XPS\exitExamSimulation\ExitExamApp\TestClient\obj\Debug\
 C:\Users\Johnny Tran\Documents\GitHub\exitExamSimulation\ExitExamApp\TestClient\bin\Debug\TestClient.exe.config
 C:\Users\Johnny Tran\Documents\GitHub\exitExamSimulation\ExitExamApp\TestClient\obj\Debug\TestClient.exe
 C:\Users\Johnny Tran\Documents\GitHub\exitExamSimulation\ExitExamApp\TestClient\obj\Debug\TestClient.pdb
+C:\exitExamSimulation\ExitExamApp\TestClient\bin\Debug\TestClient.exe
+C:\exitExamSimulation\ExitExamApp\TestClient\bin\Debug\TestClient.pdb
+C:\exitExamSimulation\ExitExamApp\TestClient\bin\Debug\ExitExamApp.exe
+C:\exitExamSimulation\ExitExamApp\TestClient\bin\Debug\MySql.Data.dll
+C:\exitExamSimulation\ExitExamApp\TestClient\bin\Debug\ExitExamApp.pdb
+C:\exitExamSimulation\ExitExamApp\TestClient\bin\Debug\MySql.Data.xml
+C:\exitExamSimulation\ExitExamApp\TestClient\obj\Debug\TestClient.csprojResolveAssemblyReference.cache

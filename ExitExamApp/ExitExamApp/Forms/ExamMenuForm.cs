@@ -36,5 +36,12 @@ namespace ExitExamApp
             xmform.Show();
             this.Close();
         }
+
+        private void deleteUserBtn_Click(object sender, EventArgs e)
+        {
+            DeleteUserForm deleteMe = new DeleteUserForm();
+            deleteMe.Show();
+            this.Close();
+        }
     }
 }

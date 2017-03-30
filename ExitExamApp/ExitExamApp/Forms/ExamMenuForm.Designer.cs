@@ -31,6 +31,7 @@
             this.exitExamButton = new System.Windows.Forms.Button();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.deleteUserBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // exitExamButton
@@ -61,11 +62,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // deleteUserBtn
+            // 
+            this.deleteUserBtn.Location = new System.Drawing.Point(196, 211);
+            this.deleteUserBtn.Name = "deleteUserBtn";
+            this.deleteUserBtn.Size = new System.Drawing.Size(75, 23);
+            this.deleteUserBtn.TabIndex = 3;
+            this.deleteUserBtn.Text = "xm delete user";
+            this.deleteUserBtn.UseVisualStyleBackColor = true;
+            this.deleteUserBtn.Click += new System.EventHandler(this.deleteUserBtn_Click);
+            // 
             // ExamMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(557, 378);
+            this.Controls.Add(this.deleteUserBtn);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.exitExamButton);
@@ -81,6 +93,7 @@
         private System.Windows.Forms.Button exitExamButton;
         private System.Windows.Forms.Label welcomeLabel;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button deleteUserBtn;
     }
 }
 
