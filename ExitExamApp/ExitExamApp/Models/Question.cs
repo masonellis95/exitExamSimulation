@@ -11,7 +11,7 @@ namespace ExitExamApp
     {
         private int _questionID;
         private int _questionCategory;
-        private string _text;
+        private string _questionText;
         private string _answer;
         private string _incorrect1;
         private string _incorrect2;
@@ -23,7 +23,7 @@ namespace ExitExamApp
         {
             _questionID = 0;
             _questionCategory = 0;
-            _text = "";
+            _questionText = "";
             _answer = "";
             _incorrect1 = "";
             _incorrect2 = "";
@@ -44,7 +44,6 @@ namespace ExitExamApp
             }
 
         }
-
         public int QuestionCategory
         {
             get
@@ -53,22 +52,27 @@ namespace ExitExamApp
             }
             set
             {
-                _questionCategory = value;
+                if (Logic.Constants.QUESTION_CATEGORIES.Contains(value))
+                {
+                    _questionCategory = value;
+                }
+                else
+                {
+                    throw new Exception(String.Format("{0} is not a valid question category.", value));
+                }
             }
         }
-
-        public string Text
+        public string QuestionText
         {
             get
             {
-                return _text;
+                return _questionText;
             }
             set
             {
-                _text = value;
+                _questionText = value;
             }
         }
-
         public string Answer
         {
             get
@@ -80,7 +84,6 @@ namespace ExitExamApp
                 _answer = value;
             }
         }
-
         public string Incorrect1
         {
             get
@@ -92,7 +95,6 @@ namespace ExitExamApp
                 _incorrect1 = value;
             }
         }
-
         public string Incorrect2
         {
             get
@@ -104,7 +106,6 @@ namespace ExitExamApp
                 _incorrect2 = value;
             }
         }
-
         public string Incorrect3
         {
             get
@@ -116,7 +117,6 @@ namespace ExitExamApp
                 _incorrect3 = value;
             }
         }
-
         public string Incorrect4
         {
             get
@@ -128,7 +128,6 @@ namespace ExitExamApp
                 _incorrect4 = value;
             }
         }
-
         public string Hint
         {
             get

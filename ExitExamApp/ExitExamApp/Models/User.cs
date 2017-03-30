@@ -44,7 +44,6 @@ namespace ExitExamApp
                 }
             }
         }
-
         public String FirstName
         {
             get
@@ -64,7 +63,6 @@ namespace ExitExamApp
                 }
             }
         }
-
         public String LastName
         {
             get
@@ -84,7 +82,6 @@ namespace ExitExamApp
                 }
             }
         }
-
         public String UserName
         {
             get
@@ -104,7 +101,6 @@ namespace ExitExamApp
                 }
             }
         }
-
         public String PassWord
         {
             get
@@ -124,7 +120,6 @@ namespace ExitExamApp
                 }
             }
         }
-
         public Char UserType
         {
             get

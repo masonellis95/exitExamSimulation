@@ -13,5 +13,7 @@ namespace ExitExamApp.Logic
         public const int USER_USERNAME_LENGTH = 30;
         public const int USER_PASSWORD_LENGTH = 30;
         public readonly static char[] USER_USERTYPES = "AS".ToCharArray();
+
+        public readonly static int[] QUESTION_CATEGORIES = new int[] {1, 2, 3, 4, 5, 6, 7};
     }
 }

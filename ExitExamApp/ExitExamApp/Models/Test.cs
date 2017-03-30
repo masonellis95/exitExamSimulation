@@ -34,7 +34,6 @@ namespace ExitExamApp
                 _testID = value;
             }
         }
-
         public int UserID
         {
             get
@@ -46,7 +45,6 @@ namespace ExitExamApp
                 _userID = value;
             }
         }
-
         public string CorrectAnswer
         {
             get
@@ -58,7 +56,6 @@ namespace ExitExamApp
                 _correctAnswer = value;
             }
         }
-
         public float Time
         {
             get
@@ -70,7 +67,6 @@ namespace ExitExamApp
                 _time = value;
             }
         }
-
         public int Attempted
         {
             get
