@@ -267,78 +267,173 @@ af B
 af D
 af E
 
-k 
-cit 
-ctg 
+k 021
+cit SWENGST
+ctg 5
 con 
 fig 
-q 
-aa 
-af 
-af 
-af 
-af 
+q Which one of these statements is false?
+aa In an agile softwere process, project planning and testing are eliminated.
+af In an agile software process, only essential work products are produced.
+af In an agile software process, the team can streamline tasks.
+af In an agile software process, an incremental product delivery strategy can be used.
+af In an agile software process, the customer is involved continually.
 
-k 
-cit 
-ctg 
-con 
+k 022
+cit SWENGST
+ctg 5
+con I. Point out ways for the producer to improve his or her skills  II. Fix Issues  III. Social and Team-Building Activities  IV. Document Issues
 fig 
-q 
-aa 
-af 
-af 
-af 
-af 
+q What should be done in a review?
+aa II and IV
+af II and III
+af I and IV
+af I only 
+af IV only
 
-k 
-cit 
-ctg 
-con 
+k 023
+cit SWENGST
+ctg 5
+con I. car: convertible  II. person: student III. team: player  IV. car: driver V. student: sophomore
 fig 
-q 
-aa 
-af 
-af 
-af 
-af 
+q Which of these represent(s) and inheritance relationship?
+aa I, II, and V
+af I only 
+af I and IV
+af III and IV
+af V only
 
-k 
-cit 
-ctg 
-con 
+k 024
+cit SWENGST
+ctg 5
+con I. car: convertible  II. person: student III. team: player  IV. car: driver V. student: sophomore
 fig 
-q 
-aa 
-af 
-af 
-af 
-af 
+q Which of these represent(s) an aggregation relationship?
+aa III only
+af I only
+af II only
+af I, II, and III
+af III and IV
 
-k 
-cit 
-ctg 
-con 
+k 025
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 5
+con I. encapsulation  II. inheritance  III. Recursion
 fig 
-q 
-aa 
-af 
-af 
-af 
-af 
+q The object-oriented paradigm includes which of these properties?
+aa I and II only
+af I only
+af II only
+af II and III only
+af I, II, and III
 
-k 
-cit 
-ctg 
-con 
-fig 
-q 
-aa 
-af 
-af 
-af 
-af 
+k 026
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 2
+con Consider the following pseudocode:
+fig .\\images\\img_k026.png
+q What is the value of i at the end of the pseudocode?
+aa 5
+af 4
+af 6
+af 7
+af 8
  
+k 027
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 1
+con Consider the binary tree T below:
+fig .\\images\\img_k027.png
+q Which of the following represents a postorder traversal of T?
+aa X Z U W Y Q V P
+af P Q U W X V Y Z
+af U Q X W P V Z Y
+af U X W Q Z Y V P
+af U X Z Q W Y V P
+
+k 028
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 4
+con I. The virtual address space can be larger than the amount of physical memory  II. Programs must be resident in main memory throughout their execution  III. Pages correspond to semantic characteristics of the program
+fig 
+q Which of the following is (are) true about virtual memory systems that use pages?
+aa I only
+af II only
+af I and II
+af I and III
+af II and III
+
+k 029
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 1
+con 
+fig 
+q Hash tables can contribute to an efficient average-case solution for all of the problems described below EXCEPT:
+aa Range search: Given values a and b, find all the records whose key value is in the range a, b .
+af Counting distinct values: Given a set of n keys, determine the number of distinct key values.
+af Dynamic dictionary: Support the operations of insert, delete, and search in a dictionary.
+af Symbol table lookup: Given a program identifier, find its type and address.
+af Finding intersections: Given two sets of keys, find all key values in common to both sets.
+
+k 030
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 7
+con 
+fig 
+q In the Internet Protocol (IP) suite of protocols, which of the following best describes the purpose of the Address Resolution Protocol?
+aa To determine the hardware address of a given IP address
+af To translate Web addresses to host names
+af To determine the IP address of a given host name
+af To determine the hardware address of a given host name
+af To determine the appropriate route for a datagram
+
+k 031
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 2
+con Consider the following procedures:
+fig .\\images\\img_k031.png
+q Suppose that the parameters are passed by value. Which of the following values are output when procedure mystery is called?
+aa 14  16
+af  2	7
+af  2	9
+af  9  14
+af 30  30
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af
 k********************************
 cit 180E1F06
 ctg 2
