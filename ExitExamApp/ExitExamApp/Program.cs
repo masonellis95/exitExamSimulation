@@ -16,7 +16,7 @@ namespace ExitExamApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            Application.Run(new ExitExamApp.Forms.LogInForm());
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace ExitExamApp
+﻿namespace ExitExamApp.Forms
 {
     partial class AddUserForm
     {
