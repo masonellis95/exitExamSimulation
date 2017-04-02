@@ -219,6 +219,54 @@ namespace ExitExamApp
             return result;
         }
 
+        public bool InsertQuestionResponse(QuestionResponse qr)
+        {
+            bool result = false;
+            string query = @"
+                INSERT INTO QuestionResponse
+                (
+                    QuestionID
+                    , UserID
+                    , Correct
+                )
+                VALUES
+                (
+                    @QuestionID
+                    , @UserID
+                    , @Correct
+                );
+            ";
+
+            try
+            {
+                OpenConnection();
+
+                using (MySqlCommand command = new MySqlCommand(query, _connection))
+                {
+                    command.Parameters.AddWithValue("@QuestionID", qr.QuestionID);
+                    command.Parameters.AddWithValue("@UserID", qr.UserID);
+                    command.Parameters.AddWithValue("@Correct", (qr.Correct) ? 1 : 0);
+
+                    if (command.ExecuteNonQuery() == 1)
+                    {
+                        result = true;
+                    }
+                    else
+                    {
+                        throw new Exception("Error inserting Question Response.");
+                    }
+                }
+
+                CloseConnection();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+
+            return result;
+        }
+
         /// <summary>
         /// This method deletes the user with the given userID.
         /// </summary>

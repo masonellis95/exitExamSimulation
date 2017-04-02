@@ -30,7 +30,8 @@ namespace TestClient
             Console.WriteLine("3. Delete User");
             Console.WriteLine("4. Validate User");
             Console.WriteLine("5. Get User");
-            Console.WriteLine("6. Exit");
+            Console.WriteLine("6. Insert Question Response");
+            Console.WriteLine("7. Exit");
 
             try
             {
@@ -55,6 +56,9 @@ namespace TestClient
                         GetUserTest();
                         break;
                     case 6:
+                        InsertQuestionResponseTest();
+                        break;
+                    case 7:
                         Environment.Exit(0);
                         break;
                 }
@@ -257,6 +261,74 @@ namespace TestClient
                 Console.ReadLine();
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Green;
+            }
+        }
+
+        public static void InsertQuestionResponseTest()
+        {
+            ExitExamApp.DatabaseManager db = new ExitExamApp.DatabaseManager();
+            int questionID = 0;
+            int userID = 0;
+            bool correct = true;
+            string input = "";
+
+            Console.WriteLine("**********************************************************************************");
+            Console.WriteLine("INSERT QUESTION RESPONSE TEST");
+            Console.WriteLine("**********************************************************************************");
+            Console.WriteLine("QuestionID: ");
+            questionID = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("UserID: ");
+            userID = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Correct? (Y/N):");
+            input = Console.ReadLine();
+
+            while (!new string[] { "Y", "y", "N", "n" }.Contains(input))
+            {
+                Console.WriteLine(String.Format("{0} is not a valid input.", input));
+                Console.ReadLine();
+                Console.WriteLine("Correct? (Y/N):");
+                input = Console.ReadLine();
+            }
+
+            if (input == "Y" || input == "y")
+            {
+                correct = true;
+            }
+
+            if (input == "N" || input == "n")
+            {
+                correct = false;
+            }
+
+            try
+            {
+                QuestionResponse qr = new QuestionResponse()
+                {
+                    QuestionID = questionID
+                    ,
+                    UserID = userID
+                    ,
+                    Correct = correct
+                };
+
+                if (db.InsertQuestionResponse(qr))
+                {
+                    Console.WriteLine("Question Response Inserted.");
+                    Console.ReadLine();
+                    Console.Clear();
+                }
+                else
+                {
+                    Console.WriteLine("Failure");
+                    Console.ReadLine();
+                    Console.Clear();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.ReadLine();
+                Console.Clear();
             }
         }
     }

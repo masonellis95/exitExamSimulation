@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExitExamApp
 {
-    class Test
+    public class Test
     {
         private int _testID;
         private int _userID;

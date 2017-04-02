@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace ExitExamApp
 {
-    class QuestionResponse
+    public class QuestionResponse
     {
         private int _questionResponseID;
         private int _userID;
         private int _quesitonID;
-        private int _correct;
+        private bool _correct;
 
         public QuestionResponse()
         {
             _questionResponseID = 0;
             _userID = 0;
             _quesitonID = 0;
-            _correct = 0;
+            _correct = false;
         }
 
         public int QuestionResponseID
@@ -54,7 +54,7 @@ namespace ExitExamApp
                 _quesitonID = value;
             }
         }
-        public int Correct
+        public bool Correct
         {
             get
             {

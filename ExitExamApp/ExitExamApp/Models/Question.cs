@@ -7,7 +7,7 @@ using System.IO;
 
 namespace ExitExamApp
 {
-    class Question
+    public class Question
     {
         private int _questionID;
         private int _questionCategory;
