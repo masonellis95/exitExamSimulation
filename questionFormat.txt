@@ -391,7 +391,7 @@ k 031
 cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
 ctg 2
 con Consider the following procedures:
-fig .\\images\\img_k031.png
+fig .\\images\\img_k031_2.png
 q Suppose that the parameters are passed by value. Which of the following values are output when procedure mystery is called?
 aa 14  16
 af  2	7
@@ -399,49 +399,204 @@ af  2	9
 af  9  14
 af 30  30
 
-k 
-cit 
-ctg 
-con 
-fig 
-q 
-aa 
-af 
-af 
-af 
-af
-
-k 
-cit 
-ctg 
-con 
-fig 
-q 
-aa 
-af 
-af 
-af 
-af
-
-k 
-cit 
-ctg 
-con 
-fig 
-q 
-aa 
-af 
-af 
-af 
-af
-k********************************
-cit 180E1F06
+k 032
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
 ctg 2
-con int theVar = // 2
-				/* /* 4 + 5 */
-				6 * 3
-				// - 2
-				;
+con Consider the following procedures:
+fig .\\images\\img_k031_2.png
+q Suppose that all parameters are passed by reference. Which of the following values are output when procedure mystery is called?
+aa 30  30
+af  2	7
+af  2   9
+af 14  16
+af  9  14
+
+k 033
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 3
+con I. a singly linked list  II. A doubly linked list  III. An array
+fig 
+q Mergesort works by splitting a list of n numbers in half, sorting each half recursively, and merging the two halves. Which of the following data structures will allow mergesort to work in O(n log n) time?
+aa I, II, and III
+af None
+af III only
+af I and II only
+af II and III only
+
+k 034
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 7
+con 
+fig 
+q Which of the following is not a property of bitmap graphics?
+aa All line segments can be displayed as straight.
+af Realistic lighting and shading can be done.
+af Fast hardware exists to move blocks of pixels efficiently.
+af Polygons can be filled with solid colors and textures.
+af The complexity of the image representation is independent of the image.
+
+k 035
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 4
+con I. Increasing the clock cycle rate  II. Disallowing any forwarding in the pipeline  III. Doubling the sizes of the instruction cache and the data cache without changing the clock cycle time
+fig 
+q In a pipelined RISC computer where all arithmetic instructions have the same CPI (cycles per instruction), which of the following actions would improve the execution time of a typical program?
+aa I and III
+af I only
+af II only
+af III only
+af I and II
+
+k 036
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 7
+con 
+fig 
+q Which of the following comes closest to being a perfectly secure encryption scheme?
+aa One-time pad
+af The Caesar Cipher, a substitution cipher
+af DES (Data Encryption Standard), a symmetric-key algorithm
+af Enigma, a transposition cipher
+af RSA, a public-key algorithm
+
+k 037
+cit http://faculty.cse.tamu.edu/walker/Quals/GRE_CompSci_PracticeBook.pdf
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+k 
+cit 
+ctg 
+con 
+fig 
+q 
+aa 
+af 
+af 
+af 
+af 
+
+
+
+
+
+
+
 
 
 
